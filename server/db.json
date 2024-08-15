@@ -1,0 +1,112 @@
+{
+  "Packages": [
+    {
+      "id": 1,
+      "name": "caja"
+    },
+    {
+      "id": 2,
+      "name": "bulto"
+    },
+    {
+      "id": 3,
+      "name": "fardo"
+    }
+  ],
+  "senders": [
+    {
+      "id": 2,
+      "name": "Maria ramos",
+      "dni": "40414243",
+      "phone": "998899988"
+    },
+    {
+      "id": 3,
+      "name": "Tristan",
+      "dni": "10203040",
+      "phone": "998899988"
+    },
+    {
+      "id": 4,
+      "name": "clau",
+      "dni": "78945612",
+      "phone": "987654321"
+    }
+  ],
+  "consignees": [
+    {
+      "id": 1,
+      "name": "Belen",
+      "dni": "10203040",
+      "phone": "998899988",
+      "address": "Av. Universitaria"
+    },
+    {
+      "id": 2,
+      "name": "Lucia",
+      "dni": "10203040",
+      "phone": "998899988",
+      "address": "Av. Antunez de Mayolo"
+    },
+    {
+      "id": 3,
+      "name": "Andrea",
+      "dni": "10203040",
+      "phone": "998899988",
+      "address": "Jiron Huanuco"
+    }
+  ],
+  "Destinations": [
+    {
+      "id": 2,
+      "name": "Cajamarca"
+    },
+    {
+      "id": 3,
+      "name": "Lima"
+    },
+    {
+      "id": 4,
+      "name": "Cusco"
+    },
+    {
+      "id": 5,
+      "name": "Apurimac"
+    },
+    {
+      "id": 6,
+      "name": "Piura"
+    }
+  ],
+  "documents": [
+    {
+      "id": 1,
+      "name": "Boleta"
+    },
+    {
+      "id": 2,
+      "name": "Factura"
+    },
+    {
+      "id": 3,
+      "name": "Guia"
+    },
+    {
+      "id": 4,
+      "name": "Ticket"
+    }
+  ],
+  "Shipments": [
+    {
+      "id": 1,
+      "description": "des",
+      "freight": "4",
+      "quantity": "3",
+      "weight": "2",
+      "date": "2022-10-20T05:00:00.000Z",
+      "destinyId": 6,
+      "senderId": 4,
+      "consigneeId": 2
+    }
+  ]
+}
